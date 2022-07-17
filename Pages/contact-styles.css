@@ -159,22 +159,14 @@ input[type="submit"] {
                         background-color: #171614;
 
 }
-.formulario-nombre{
-                    
-
-
-}            
+            
 input[type="submit"]:hover {
  
     color:#1FA5DF;
     
 
 }
-#checkbox{
-                
 
-
-}
 input[type="reset"] {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
