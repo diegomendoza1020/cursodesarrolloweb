@@ -1,0 +1,349 @@
+*{
+        margin:0;
+        
+        box-sizing: border-box;
+        
+        
+       
+       
+    }
+    
+    
+    .header {
+                
+                width: 100%;
+                height: 300px; 
+                padding: 30px;
+                background-color: #171614;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                   
+    }
+    
+    .logo {
+                text-align:center;
+                
+                
+                
+                
+    }
+    .logo img {
+                width: 60%;
+                
+    }
+    
+    .barra {
+                display: flex;
+                flex-direction: row;
+        
+    
+        
+        
+    }
+    
+    
+    .barra div {
+                    
+                    text-decoration: none;
+                    margin: 10px;
+                    padding: 10px;
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-weight: 300;
+                    font-size: 20px;
+                    color:#FAFAFA;
+                    
+    
+    }
+    
+    
+    .barra div a{
+       
+        color: #FAFAFA;
+        text-decoration: none;
+       
+    }
+    .barra div:hover{ 
+                            color:#1FA5DF;
+    
+    }
+    
+    #paginaactual {
+                    color: #1FA5DF;
+    
+    }
+body {
+        background-color: #171614;
+
+}
+
+
+
+.grid{
+        width: 100%;
+        height: auto;
+        
+        
+       
+       
+        
+
+
+}
+
+.item{
+            height: 200px;
+            
+            
+            
+            
+}
+
+.item:hover{
+                transform: scale(1.06);
+                filter: grayscale(30);
+                transition: all 0.30s;
+
+}
+
+.item1{
+            background-image: url(../Multimedia/concierto-wolf-alice-3-noviembre-barcelona_img_1467618.jpeg);
+            background-position: center;
+            background-size:cover;
+
+}
+.item2{
+            background-image: url(../Multimedia/wolf_alice_concert_deluxe_old_national_indianapolis_2022-47-2.jpg);
+            background-position: center;
+            background-size:cover;
+
+}
+.item3{
+            background-image: url(../Multimedia/edcd03cdd2a74f059e2433867a264489.jpeg);
+            background-position: center;
+            background-size:cover;
+
+}
+.item4{
+            background-image: url(../Multimedia/Wolf-Alice-Cover.jpg);
+            background-position: center;
+            background-size:cover;
+
+}
+.item5{
+            background-image: url(../Multimedia/WA_Dork_JonoWhite_5.jpg);
+            background-position: center;
+            background-size:cover;
+
+}
+.item6{
+            background-image: url(../Multimedia/Wolf-Alice-1200x753.jpg);
+            background-position: center;
+            background-size:cover;
+
+}
+.item7{
+            background-image: url(../Multimedia/ELLIE-AND-JOFF-NTC-1068x606.jpg);
+            background-position: center;
+            background-size:cover;
+            
+}
+.item8{
+            background-image: url(../Multimedia/453A7294.jpg);
+            background-position: center;
+            background-size:cover;
+
+}
+.item9{
+            background-image: url(../Multimedia/DSC_1845.jpg);
+            background-position: center;
+            background-size:cover;
+
+}
+.item10{
+            background-image: url(../Multimedia/wolfalice1.jpg);
+            background-position: center;
+            background-size:cover;
+
+}
+.item11{
+            background-image: url(../Multimedia/wolf-alice.jpg);
+            background-position: center;
+            background-size:cover;
+
+}
+.item12{
+            background-image: url(../Multimedia/in-photos-wolf-alice-o2-academy-bristol-12.jpg);
+            background-position: center;
+            background-size:cover;
+
+}
+.item13{
+            background-image: url(../Multimedia/WolfAlice3.jpg);
+            background-position: center;
+            background-size:cover;
+
+}
+
+
+footer {
+    min-height: 200px;
+    width: 100%;
+    background-color: #171614;
+    text-align: center;
+    position: relative;
+
+}
+footer p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40x;
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+   
+    color: #FAFAFA;
+
+}
+
+footer i {
+    font-size: 40px;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 1px;
+    border-radius: 100%;
+    
+}
+
+footer i:hover{
+            color:#1FA5DF;
+            border-color:#1FA5DF;
+            transition: all 0.15s;
+
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px){
+
+        
+            
+            .grid{
+                    display:grid;
+                    grid-template-columns: 1fr;
+
+            }
+                
+            header{
+                padding: 20px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                
+    
+    }
+    
+            
+            .barra {
+    
+                text-align: center;
+                display:flex;
+                padding: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+            .barra div {
+                text-align: center;
+                width: auto;
+            }
+    
+}
+
+@media only screen and (min-width: 900px) {
+
+        header{
+                padding: 20px;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                
+    
+    }
+    
+            
+            .barra {
+    
+                text-align: center;
+                display:flex;
+                padding: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+            .barra div {
+                text-align: center;
+                width: auto;
+            }
+    
+            .grid{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    
+
+            }
+
+            .item1{
+                    grid-column: 1/2;
+                    grid-row: 1/2;
+            }
+            .item2{
+                    grid-column: 2/3;
+                    grid-row: 1/3;
+                    height: 100%;
+            }
+            .item3{
+                    
+
+            }
+            .item4{
+                    grid-column: 1/2;
+                    grid-row: 2/4;
+                    height: 100%;
+
+            }
+            .item8{
+                    grid-column: 3/4;
+                    grid-row: 3/11;
+                    height: 100%;
+            }
+            .item9{
+                grid-column: 1/2;
+                grid-row: 4/13;
+                height: 150%;
+        }
+
+            .item10{
+                    grid-column: 1/2;
+                    grid-row: 12/14;
+
+            }
+            .item11{
+                grid-column: 2/3;
+                grid-row: 5/14;
+                height: 100%;
+            }
+            .item13{
+                grid-column: 3/4;
+                grid-row: 13/14;
+                
+                
+                
+            }
+}

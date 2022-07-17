@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    background-color: #171614;
+   
+   
+}
+.header {
+            height: 999x; 
+            width: 100%;
+            background-color: #171614;       
+}
+
+.logo {
+            text-align:center;
+            padding: 50px;
+}
+
+.barra {
+    text-align: center;
+}
+
+.barra ul {
+                list-style: none;
+                position: relative;
+                margin: 10px;
+                top: 50%;
+                
+}
+
+.barra ul li {
+                display: inline-block;
+                text-decoration: none;
+                margin: 20px;
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 300;
+                font-size: 23px;
+                color:#FAFAFA;
+
+}
+
+.barra ul li a:hover { 
+                        color:#1FA5DF;
+
+}
+
+#paginaactual {
+                color: #1FA5DF;
+
+}
+
+.barra ul li a{
+                color: #FAFAFA;
+                text-decoration: none;
+               
+}
+
+#intro-titulo{
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 700;
+                text-align: left;
+                padding: 50px 50px 50px 50px;
+                font-size: 64px;
+}
+.intro {
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 300;
+                font-size: 32px;
+                height: 1000px;
+                padding: 0px 0px 0px 50px;
+                
+                width: 100%;
+                color: #FAFAFA;
+                background-color: #171614;
+              
+                
+}
+
+.intro-texto{
+                
+                float: left;
+               
+}
+.intro p {
+                width: 700px;
+                padding: 30px 30px;
+                
+                
+
+}
+
+.intro-imagen {
+                height: 100%;
+                width: 50%;
+                background-image: url(../Multimedia/IMG_4791.jpg);
+                background-position: 250% 10%;
+                background-size:contain;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+
+                
+                float: right;
+
+}
+
+.inicios {
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 300;
+                font-size: 32px;
+                height: 1500px;
+                padding: 50px 0px 0px 50px;
+                
+                width: 100%;
+                color: #FAFAFA;
+                background-color: #171614;
+                
+}
+
+
+
+#inicios-titulo {
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 700;
+            text-align: left;
+            padding: 50px 50px 50px 50px;
+            font-size: 64px;
+
+}
+
+            
+
+#inicios-imagen{
+        padding: 30px;
+        width: 100%;
+}
+
+.inicios-imagen {
+                width: 50%;
+                float: left;
+
+}
+
+.texto2 {
+                float: right;
+                text-align: justify;
+                
+                width: 50%;
+                padding: 30px 30px;
+}
+
+.texto2 p {
+                padding: 30px 30px;
+
+}
+
+.members {
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-weight: 300;
+                    font-size: 32px;
+                    height: 1500px;
+                    padding: 50px 0px 0px 50px;
+                    
+                    width: 100%;
+                    color: #FAFAFA;
+                    background-color: #171614;
+
+}
+
+footer {
+    min-height: 200px;
+    width: 100%;
+    background-color: #171614;
+    text-align: center;
+    position: relative;
+
+}
+footer p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40x;
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+   
+    color: #FAFAFA;
+
+}
+
+footer i {
+    font-size: 40px;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 1px;
+    border-radius: 100%;
+    
+}
+
+footer i:hover{
+            color:#1FA5DF;
+            border-color:#1FA5DF;
+
+
+}

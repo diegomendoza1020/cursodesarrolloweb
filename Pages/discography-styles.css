@@ -1,0 +1,374 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    
+   
+   
+}
+.header {
+            height: 999x; 
+            width: 100%;
+            background-color: #171614;       
+}
+
+.logo {
+            text-align:center;
+            padding: 50px;
+}
+
+.barra {
+    text-align: center;
+}
+
+.barra ul {
+                list-style: none;
+                position: relative;
+                margin: 10px;
+                top: 50%;
+                
+}
+
+.barra ul li {
+                display: inline-block;
+                text-decoration: none;
+                margin: 20px;
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 300;
+                font-size: 23px;
+                color:#FAFAFA;
+
+}
+
+.barra ul li a:hover { 
+                        color:#1FA5DF;
+
+}
+
+#paginaactual {
+                color: #1FA5DF;
+
+}
+
+.barra ul li a{
+                color: #FAFAFA;
+                text-decoration: none;
+}
+.albumes{
+            height: 1300px;
+            margin: auto;
+            text-align: center;
+            position: relative;
+
+            
+
+}
+.portadas{
+            background-color: #171614;
+            padding: 50px 50px;
+
+}
+
+.portadas h1{
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 700;
+                text-align: center;
+                padding: 50px 50px 50px 50px;
+                font-size: 64px;
+                color:#FAFAFA;
+
+}
+.album11{
+                    position: absolute;
+                    text-align: center;
+                    left: 20%;
+                    height: 500px;
+                  
+                    width: 500px;
+                    
+                    
+                    
+                   
+}
+
+.albumes h3{
+                text-align: center;
+                width: 500px;
+                padding: 30px;
+                text-decoration: none;
+                margin: auto;
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 300;
+                font-size: 23px;
+                color:#FAFAFA;
+
+}
+.albumes a{
+   
+    text-decoration: none;
+    
+
+}
+.album2{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    height: 500px;
+    width: 500px;
+    
+    
+    
+}
+
+.album3{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    
+    margin: auto;
+    text-align: center;
+    
+    
+    width: 700px;
+    
+    
+}
+.album {
+           
+            display: grid;
+            grid-template-columns: 1000px 1fr;
+            grid-template-rows: auto 700px 500px;
+            grid-template-areas: 
+            "album-titulo album-titulo"
+            "album-historia album-portada"
+            "tracklist tracklist";
+
+}
+
+.album-titulo{
+        background-color: #1FA5DF;
+        grid-area: album-titulo;
+        font-size: 100px;
+        padding: 30px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        min-width: 50px;
+
+}
+/*
+.album-titulo{
+        background-color: #1FA5DF;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        font-size: 60px;
+
+}
+*/
+
+.album-historia{
+    
+        grid-area: album-historia;
+        font-size: 30px;
+        padding: 30px 30px 30px 30px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        text-align:justify ;
+        color: #FAFAFA;
+        background-color: #171614;
+      
+
+}
+
+.album-historia-listen{
+            margin: 50px 50px 0px 0px;
+            
+
+}
+.album-historia-listen i {
+            text-align: center;
+            margin: 50px;        
+            font-size: 70px;
+            
+
+}
+
+.album-portada{
+        background-image: url(../Multimedia/R-7146388-1435015803-9119.jpg);
+        background-position: center;
+       background-size: contain;
+        grid-area: album-portada;
+
+        
+}
+
+.tracklist{
+        grid-area: tracklist;
+
+}
+table {
+         
+    margin:auto;
+    padding: 50px 50px;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#171614;
+
+
+}
+
+.day{
+   text-align: center;
+
+}
+table td {
+       width: 100%;
+       margin: 50px;
+       font-weight: 300;
+       
+       text-align: left;
+       background-color: #f3f3f3;
+       
+
+}
+
+table tr{
+            padding: 50px 50px;
+
+}
+
+
+.tracklist h3{
+    width: 1000px;
+    padding: 30px 30px 10px 30px;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    color:#171614; 
+
+}
+
+.tracklist{
+               
+                
+                height: 1100px;
+                padding: 30px 30px 30px 30px;
+                
+
+}
+
+        .cancion-titulo{
+            grid-area: cancion-titulo;
+            font-size: 20px;
+            padding: 30px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 300;
+            
+
+
+        }
+
+
+.cancion{
+            display:grid;
+            grid-template-columns: auto 300px;
+            grid-template-rows: 100px auto;
+            background-color: #e6e6e6;
+            height:75px;
+            transition: height 2.7s;
+            overflow: hidden;
+            margin: 20px;
+            
+            font-size: 30px;
+            grid-template-areas: 
+            "cancion-titulo cancion-titulo"
+            "cancion-letra cancion-info";
+
+
+}
+
+.cancion-letra {
+    grid-area: cancion-letra;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    padding: 50px 50px 50px 50px;
+    width: 700x;
+    text-align: justify;
+
+}
+
+.cancion-info{
+                grid-area: cancion-info;
+                text-align: right;
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 300;
+                padding: 0px 50px 0px 0px
+
+}
+
+.cancion-info h1{ 
+                 font-size: 20px;
+                 margin: 50px 0px 0px 20px;
+
+
+}
+.cancion-info p{
+                margin: 0px 0px 50px 20px;
+                font-size: 20px;
+
+}
+
+.cancion h1:hover{
+                font-size: 70px;
+                
+
+}
+.cancion:hover{
+            height: 500px;
+            
+
+}
+
+
+
+footer {
+    min-height: 200px;
+    width: 100%;
+    background-color: #171614;
+    text-align: center;
+    position: relative;
+
+}
+footer p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40x;
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+   
+    color: #FAFAFA;
+
+}
+
+footer i {
+    font-size: 40px;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    border-style: solid;
+    border-color: #FAFAFA;
+    border-width: 1px;
+    border-radius: 100%;
+    
+}
+
+i:hover{
+            color:#1FA5DF;
+            border-color:#1FA5DF;
+
+
+}
+
