@@ -68,9 +68,9 @@
 }
 .barra div a:hover{ 
                         color: #1FA5DF;
-                        
-                      
-                        
+                        border-color:#1FA5DF;
+                        text-decoration: underline;
+                        transition: all 0.15s;
 
 }
 
