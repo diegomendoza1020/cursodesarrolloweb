@@ -1,46 +1,81 @@
 *{
     margin:0;
+    
     box-sizing: border-box;
+    
     
    
    
 }
+
+
 .header {
-            height: 999x; 
+            
             width: 100%;
-            background-color: #171614;       
+            height: 300px; 
+            padding: 30px;
+            background-color: #171614;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+               
 }
 
 .logo {
             text-align:center;
-            padding: 50px;
+            
+            
+            
+            
+}
+.logo img {
+            width: 60%;
+            
 }
 
 .barra {
-    text-align: center;
-}
+    display: flex;
+    flex-direction: row;
 
-.barra ul {
-                list-style: none;
-                position: relative;
-                margin: 10px;
-                top: 50%;
-                
-}
 
-.barra ul li {
-                display: inline-block;
-                text-decoration: none;
-                margin: 20px;
-                font-family: 'Josefin Sans', sans-serif;
-                font-weight: 300;
-                font-size: 23px;
-                color:#FAFAFA;
+
 
 }
 
-.barra ul li a:hover { 
-                        color:#1FA5DF;
+
+.barra div {
+        
+        text-decoration: none;
+        margin: 10px;
+        padding: 10px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        color:#FAFAFA;
+        
+        
+
+}
+
+
+.barra div a{
+
+color: #FAFAFA;
+text-decoration: none;
+
+
+}
+.barra div a:hover{ 
+                color: #1FA5DF;
+                border-color:#1FA5DF;
+                text-decoration: underline;
+                transition: all 0.15s;
+
+}
+
+#paginaactual {
+        color: #1FA5DF;
 
 }
 
@@ -49,10 +84,6 @@
 
 }
 
-.barra ul li a{
-                color: #FAFAFA;
-                text-decoration: none;
-}
 .albumes{
             height: 1300px;
             margin: auto;
@@ -136,7 +167,7 @@
            
             display: grid;
             grid-template-columns: 1000px 1fr;
-            grid-template-rows: auto 700px 500px;
+            grid-template-rows: auto 700px;
             grid-template-areas: 
             "album-titulo album-titulo"
             "album-historia album-portada"
@@ -145,7 +176,9 @@
 }
 
 .album-titulo{
-        background-color: #1FA5DF;
+
+    
+       margin: 300px 0px 0px 0px;
         grid-area: album-titulo;
         font-size: 100px;
         padding: 30px;
@@ -201,39 +234,13 @@
 }
 
 .tracklist{
+    
         grid-area: tracklist;
-
-}
-table {
-         
-    margin:auto;
-    padding: 50px 50px;
-    font-size: 30px;
-    font-family: 'Josefin Sans', sans-serif;
-    color:#171614;
-
+        height: auto;
+        padding: 30px 30px 30px 30px;
 
 }
 
-.day{
-   text-align: center;
-
-}
-table td {
-       width: 100%;
-       margin: 50px;
-       font-weight: 300;
-       
-       text-align: left;
-       background-color: #f3f3f3;
-       
-
-}
-
-table tr{
-            padding: 50px 50px;
-
-}
 
 
 .tracklist h3{
@@ -247,14 +254,6 @@ table tr{
 
 }
 
-.tracklist{
-               
-                
-                height: 1100px;
-                padding: 30px 30px 30px 30px;
-                
-
-}
 
         .cancion-titulo{
             grid-area: cancion-titulo;
@@ -278,7 +277,7 @@ table tr{
             overflow: hidden;
             margin: 20px;
             
-            font-size: 30px;
+            font-size: 24px;
             grid-template-areas: 
             "cancion-titulo cancion-titulo"
             "cancion-letra cancion-info";
@@ -306,24 +305,19 @@ table tr{
 }
 
 .cancion-info h1{ 
-                 font-size: 20px;
+                 font-size: 50px;
                  margin: 50px 0px 0px 20px;
 
 
 }
 .cancion-info p{
                 margin: 0px 0px 50px 20px;
-                font-size: 20px;
+                font-size: 30px;
 
 }
 
-.cancion h1:hover{
-                font-size: 70px;
-                
-
-}
 .cancion:hover{
-            height: 500px;
+            height: 1500px;
             
 
 }
@@ -365,9 +359,10 @@ footer i {
     
 }
 
-i:hover{
-            color:#1FA5DF;
-            border-color:#1FA5DF;
+footer i:hover{
+    color:#1FA5DF;
+    transition: all 0.15s;
+    border-color: #1FA5DF;;
 
 
 }
