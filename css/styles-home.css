@@ -1,0 +1,47 @@
+*{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+
+
+}
+
+header{
+            /*background-color: #171614;*/
+            padding: 10px;
+
+}
+
+
+.barra li a{
+            color: #FAFAFA;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+}
+
+.fondo {
+            height: 70rem;
+            width: 100%;
+            background: rgba(0,0,0,0.7);
+            background-image: url(../Multimedia/IMG_5171.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+}
+
+.inicio{
+            height: 1050px;
+
+}
+.inicio-titulo{
+                    margin-top: 100px;
+
+}
+/*ul{
+            align-items: center;
+            justify-content:right
+
+}
+*/
