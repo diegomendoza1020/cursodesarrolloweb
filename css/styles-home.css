@@ -20,25 +20,211 @@ header{
             font-size: 20px;
 }
 
+.barra li a:hover {
+                transition: color 0.15s;
+
+                color: #1FA5DF;
+
+
+}
 .fondo {
-            height: 70rem;
-            width: 100%;
-            background: rgba(0,0,0,0.7);
-            background-image: url(../Multimedia/IMG_5171.jpg);
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
+    height: 70rem;
+    width: 100%;
+    
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(24, 24, 24, 0.993), rgba(15, 15, 15, 0.1)), url(../Multimedia/IMG_5171.jpg); 
 
 }
 
+.boton-inicio{
+                    border-color: #FAFAFA;
+                    border-radius: 0%;
+                    background-color: transparent;
+                    font-family: 'Josefin Sans', sans-serif;
+                        font-weight: 300;
+                        padding: 1rem 2rem;
+                        font-size: 2rem;
+                        line-height: 1.5;
+                        border-radius: 2 rem;
+                        margin-top: 30px;
+
+
+}
+
+.boton-inicio:hover{
+                        background-color: #FAFAFA;
+                        color: #171614;
+                        border-color: #FAFAFA;
+                        font-family: 'Josefin Sans', sans-serif;
+                        font-weight: 300;
+
+}
 .inicio{
             height: 1050px;
+
+}
+
+.inicio h1{
+                color: #FAFAFA;
+                font-family: 'Josefin Sans', sans-serif;
+                        font-weight: 300;
 
 }
 .inicio-titulo{
                     margin-top: 100px;
 
 }
+
+.card{
+                    border-radius: 2%;
+                    
+
+}
+
+.card-title h1 a{
+                        font-family: 'Josefin Sans', sans-serif;
+                        font-weight: 700;
+                        color: #171614;
+                        text-decoration: none;
+                        
+                        
+
+}
+
+.news{
+            margin-bottom: 50px;
+
+}
+
+.titulo-news{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #171614;
+
+}
+.card-subtitle{
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-weight: 300;
+                    font-size: 20px;
+                    color: #171614;
+
+}
+
+.titulo-members{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #171614;
+
+}
+
+.titulo-tour{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #FAFAFA;
+
+}
+.tour {
+            margin-top: 30px;
+            background-color: #171614 ;
+            
+
+}
+
+
+table{
+            padding: 50px 50px;
+            font-size: 30px;
+            font-family: 'Josefin Sans', sans-serif;
+            color:#FAFAFA;
+
+}
+table a { 
+
+                font-family: 'Josefin Sans', sans-serif;
+            font-weight: 700;
+            text-decoration: none;
+            color:#FAFAFA;
+            text-align: left;
+            display: block;
+        }
+
+        table td {
+            color: #FAFAFA;
+            width: auto;
+            padding:10px;
+            text-align: left;
+            display: block;
+     
+     }
+
+     table tr{
+        color: #FAFAFA;
+        margin: 50px;
+       text-align: left;
+       display: block;
+
+}
+
+.card-members{
+                    margin: 10px;
+
+}
+
+.members{
+            margin-bottom: 50px;
+
+}
+.members h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    color:#171614;
+
+}
+.members h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    color:#171614;
+
+}
+
+.footer{
+                background-color: #171614;
+
+}
+
+.footer p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40x;
+    margin-top: 150px;
+    color: #FAFAFA;
+
+}
+
+.footer i {
+    font-size: 40px;
+    color: #FAFAFA;
+    text-align: center;
+  
+    
+    
+}
+
+.footer i:hover{
+                    color: #1FA5DF;
+
+}
+
+
 /*ul{
             align-items: center;
             justify-content:right

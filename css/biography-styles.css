@@ -9,11 +9,189 @@
 }
 
 
+header{
+    /*background-color: #171614;*/
+    padding: 10px;
+
+}
+
+.fondo {
+    height: 40rem;
+    width: 100%;
+    
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(5, 5, 5, 0.308)), url(../Multimedia/IMG_4791.jpg); 
+
+}
+
+
+.barra li a{
+    color: #FAFAFA;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.barra li a:hover {
+    transition: color 0.15s;
+
+    color: #1FA5DF;
+
+
+}
+
+.barra li:hover {
+        transition: color 0.15s;
+
+        color: #171614;
+
+
+}
+
+.inicio{
+            color: #FAFAFA;
+
+}
+
+.quote{
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 300;
+            padding: 150px 48px;
+
+}
+
+
+
+   
+
+
+
+.quote-autor{
+                margin-top: 30px;
+
+}
+
+
+
+.storyp1 {
+        background-color:#FAFAFA;
+
+}
+
+
+.storyp1-texto p{
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-weight: 300;
+                    font-size: 25px;
+                    
+                    
+
+}
+
+.mayuscula {
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+
+
+}
+
+.span{
+            font-weight: 700;
+
+}
+
+.banerparallax1-contenedor {
+    max-width: auto ;
+    margin: auto;
+    
+}
+
+.banner.parallax{
+    
+    height: 1000px;
+
+
+}
+
+.parallax.imagen1 {
+        background-image: url(../Multimedia/wolf-alice-explica-la-historia-que-hay-detras-del-titulo-de-su-nuevo-album-blue-weekend.jpg);
+        background-attachment: fixed;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+
+}
+
+.parallax.imagen2 {
+    background-image: url(../Multimedia/Wolf-Alice-4.jpg);
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+
+.parallax.imagen3 {
+    background-image: url(../Multimedia/Wolf-Alice-Brixton-260915-20150926-Emma-Swann-2486.jpg);
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+
+.parallax.imagen4 {
+    background-image: url(../Multimedia/Wolf-Alice-Cover.jpg);
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+
+.footer{
+    background-color: #171614;
+
+}
+
+.footer p {
+font-family: 'Josefin Sans', sans-serif;
+font-size: 40x;
+margin-top: 150px;
+color: #FAFAFA;
+
+}
+
+.footer i {
+font-size: 40px;
+color: #FAFAFA;
+text-align: center;
+
+
+
+}
+
+.footer i:hover{
+        color: #1FA5DF;
+
+}
+/*
+
+
 .contenido{
                         height: 5000px;
 
 }
-/* header */
+header 
 .header {
             
             width: 100%;
@@ -271,4 +449,18 @@ footer i:hover{
 
 
     }
-    
+    */
+
+    @media only screen and (min-width: 0px) and (max-width: 1000px){
+        .quote{
+            
+            padding: 0px;
+
+}
+}
+
+
+            
+            
+
+
