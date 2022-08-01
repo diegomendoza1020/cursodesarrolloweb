@@ -1,32 +1,4 @@
-*{
-        padding: 0px;
-        margin: 0px;
-        box-sizing: border-box;
 
-
-}
-
-header{
-            /*background-color: #171614;*/
-            padding: 10px;
-
-}
-
-
-.barra li a{
-            color: #FAFAFA;
-            font-family: 'Josefin Sans', sans-serif;
-            font-weight: 300;
-            font-size: 20px;
-}
-
-.barra li a:hover {
-                transition: color 0.15s;
-
-                color: #1FA5DF;
-
-
-}
 .fondo {
     height: 70rem;
     width: 100%;
@@ -197,32 +169,6 @@ table a {
 
 }
 
-.footer{
-                background-color: #171614;
-
-}
-
-.footer p {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 40x;
-    margin-top: 150px;
-    color: #FAFAFA;
-
-}
-
-.footer i {
-    font-size: 40px;
-    color: #FAFAFA;
-    text-align: center;
-  
-    
-    
-}
-
-.footer i:hover{
-                    color: #1FA5DF;
-
-}
 
 
 /*ul{
