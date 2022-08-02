@@ -1,0 +1,190 @@
+$colorblue: #1FA5DF;
+$colorblack: #171614;
+$colorwhite: #FAFAFA;
+$font: 'Josefin Sans',
+sans-serif;
+
+.fondo {
+    height: 70rem;
+    width: 100%;
+
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(24, 24, 24, 0.993), rgba(15, 15, 15, 0.1)), url(../Multimedia/IMG_5171.jpg);
+
+}
+
+.boton-inicio {
+    border-color: $colorwhite;
+    border-radius: 0%;
+    background-color: transparent;
+    font-family: $font;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    border-radius: 2 rem;
+    margin-top: 30px;
+
+
+}
+
+.boton-inicio:hover {
+    background-color: $colorwhite;
+    color: #171614;
+    border-color: #FAFAFA;
+    font-family: $font;
+    font-weight: 300;
+
+}
+
+.inicio {
+    height: 1050px;
+
+
+    h1 {
+        color: $colorwhite;
+        font-family: $font;
+        font-weight: 300;
+
+    }
+}
+
+.inicio-titulo {
+    margin-top: 100px;
+
+}
+
+.card {
+    border-radius: 2%;
+
+
+}
+
+.card-title h1 a {
+    font-family: $font;
+    font-weight: 700;
+    color: #171614;
+    text-decoration: none;
+
+
+
+}
+
+.news {
+    margin-bottom: 50px;
+
+}
+
+.titulo-news {
+    font-family: $font;
+    font-weight: 700;
+    font-size: 50px;
+    color: $colorblack;
+
+}
+
+.card-subtitle {
+    font-family: $font;
+    font-weight: 300;
+    font-size: 20px;
+    color: $colorblack;
+
+}
+
+.titulo-members {
+    font-family: $font;
+    font-weight: 700;
+    font-size: 50px;
+    color: $colorblack;
+
+}
+
+.titulo-tour {
+    font-family: $font;
+    font-weight: 700;
+    font-size: 50px;
+    color: $colorwhite;
+
+}
+
+.tour {
+    margin-top: 30px;
+    background-color: $colorblack;
+    padding: 0px;
+
+
+}
+
+
+table {
+    padding: 50px 50px;
+    font-size: 30px;
+    font-family: $font;
+    color: $colorwhite;
+
+
+    a {
+
+        font-family: $font;
+        font-weight: 700;
+        text-decoration: none;
+        color: $colorwhite;
+        text-align: left;
+        display: block;
+    }
+
+    td {
+        color: $colorwhite;
+        width: auto;
+        padding: 10px;
+        text-align: left;
+        display: block;
+
+    }
+
+    tr {
+        color: $colorwhite;
+        margin: 50px;
+        text-align: left;
+        display: block;
+
+    }
+}
+
+.card-members {
+    margin: 10px;
+
+}
+
+.members {
+    margin-bottom: 50px;
+
+
+    h1 {
+        font-family: $font;
+        font-weight: 700;
+        text-align: center;
+        font-size: 50px;
+        color: $colorblack;
+
+    }
+
+    h2 {
+        font-family: $font;
+        font-weight: 700;
+        text-align: center;
+        font-size: 20px;
+        color: $colorblack;
+
+    }
+}
+
+/*ul{
+            align-items: center;
+            justify-content:right
+
+}
+*/

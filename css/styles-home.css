@@ -1,175 +1,144 @@
-
 .fondo {
-    height: 70rem;
-    width: 100%;
-    
-    
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(24, 24, 24, 0.993), rgba(15, 15, 15, 0.1)), url(../Multimedia/IMG_5171.jpg); 
-
+  height: 70rem;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(24, 24, 24, 0.993), rgba(15, 15, 15, 0.1)), url(../Multimedia/IMG_5171.jpg);
 }
 
-.boton-inicio{
-                    border-color: #FAFAFA;
-                    border-radius: 0%;
-                    background-color: transparent;
-                    font-family: 'Josefin Sans', sans-serif;
-                        font-weight: 300;
-                        padding: 1rem 2rem;
-                        font-size: 2rem;
-                        line-height: 1.5;
-                        border-radius: 2 rem;
-                        margin-top: 30px;
-
-
+.boton-inicio {
+  border-color: #FAFAFA;
+  border-radius: 0%;
+  background-color: transparent;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  line-height: 1.5;
+  border-radius: 2 rem;
+  margin-top: 30px;
 }
 
-.boton-inicio:hover{
-                        background-color: #FAFAFA;
-                        color: #171614;
-                        border-color: #FAFAFA;
-                        font-family: 'Josefin Sans', sans-serif;
-                        font-weight: 300;
-
-}
-.inicio{
-            height: 1050px;
-
+.boton-inicio:hover {
+  background-color: #FAFAFA;
+  color: #171614;
+  border-color: #FAFAFA;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
 }
 
-.inicio h1{
-                color: #FAFAFA;
-                font-family: 'Josefin Sans', sans-serif;
-                        font-weight: 300;
-
+.inicio {
+  height: 1050px;
 }
-.inicio-titulo{
-                    margin-top: 100px;
-
+.inicio h1 {
+  color: #FAFAFA;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
 }
 
-.card{
-                    border-radius: 2%;
-                    
-
+.inicio-titulo {
+  margin-top: 100px;
 }
 
-.card-title h1 a{
-                        font-family: 'Josefin Sans', sans-serif;
-                        font-weight: 700;
-                        color: #171614;
-                        text-decoration: none;
-                        
-                        
-
+.card {
+  border-radius: 2%;
 }
 
-.news{
-            margin-bottom: 50px;
-
+.card-title h1 a {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  color: #171614;
+  text-decoration: none;
 }
 
-.titulo-news{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    font-size: 50px;
-    color: #171614;
-
-}
-.card-subtitle{
-                    font-family: 'Josefin Sans', sans-serif;
-                    font-weight: 300;
-                    font-size: 20px;
-                    color: #171614;
-
+.news {
+  margin-bottom: 50px;
 }
 
-.titulo-members{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    font-size: 50px;
-    color: #171614;
-
+.titulo-news {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #171614;
 }
 
-.titulo-tour{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    font-size: 50px;
-    color: #FAFAFA;
-
+.card-subtitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #171614;
 }
+
+.titulo-members {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #171614;
+}
+
+.titulo-tour {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #FAFAFA;
+}
+
 .tour {
-            margin-top: 30px;
-            background-color: #171614 ;
-            
-
+  margin-top: 30px;
+  background-color: #171614;
+  padding: 0px;
 }
 
-
-table{
-            padding: 50px 50px;
-            font-size: 30px;
-            font-family: 'Josefin Sans', sans-serif;
-            color:#FAFAFA;
-
+table {
+  padding: 50px 50px;
+  font-size: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #FAFAFA;
 }
-table a { 
-
-                font-family: 'Josefin Sans', sans-serif;
-            font-weight: 700;
-            text-decoration: none;
-            color:#FAFAFA;
-            text-align: left;
-            display: block;
-        }
-
-        table td {
-            color: #FAFAFA;
-            width: auto;
-            padding:10px;
-            text-align: left;
-            display: block;
-     
-     }
-
-     table tr{
-        color: #FAFAFA;
-        margin: 50px;
-       text-align: left;
-       display: block;
-
+table a {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #FAFAFA;
+  text-align: left;
+  display: block;
+}
+table td {
+  color: #FAFAFA;
+  width: auto;
+  padding: 10px;
+  text-align: left;
+  display: block;
+}
+table tr {
+  color: #FAFAFA;
+  margin: 50px;
+  text-align: left;
+  display: block;
 }
 
-.card-members{
-                    margin: 10px;
-
+.card-members {
+  margin: 10px;
 }
 
-.members{
-            margin-bottom: 50px;
-
+.members {
+  margin-bottom: 50px;
 }
-.members h1{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    font-size: 50px;
-    color:#171614;
-
+.members h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 50px;
+  color: #171614;
 }
-.members h2{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    font-size: 20px;
-    color:#171614;
-
+.members h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 20px;
+  color: #171614;
 }
-
-
 
 /*ul{
             align-items: center;
@@ -177,3 +146,5 @@ table a {
 
 }
 */
+
+/*# sourceMappingURL=styles-home.css.map */
