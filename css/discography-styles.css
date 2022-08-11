@@ -26,14 +26,20 @@ header{
     
 
 }
+
+.album-titulo{
+                    background-color: #171614;
+
+}
 .album-titulo h3{
 
     
-       
+    
         font-size: 100px;
         padding: 30px;
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 700;
+        color: #FAFAFA;
         
 
 }

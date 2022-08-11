@@ -1,140 +1,79 @@
-
-
-
-
 .fondo {
-    height: 40rem;
-    width: 100%;
-    
-    
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(rgb(0, 0, 0), rgba(5, 5, 5, 0.308)), url(../Multimedia/IMG_4791.jpg); 
-
+  height: 40rem;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(5, 5, 5, 0.308)), url(../Multimedia/IMG_4791.jpg);
 }
 
-
-
-.inicio{
-            color: #FAFAFA;
-
+.inicio {
+  color: #FAFAFA;
 }
 
-.quote{
-            font-family: 'Josefin Sans', sans-serif;
-            font-weight: 300;
-            padding: 150px 48px;
-
+.quote {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  padding: 150px 48px;
+  font-size: 32px;
+}
+.quote .quote-autor {
+  font-size: 20px;
+  margin-top: 30px;
 }
 
-
-
-   
-
-
-
-.quote-autor{
-                margin-top: 30px;
-
+.story-section {
+  background-color: #FAFAFA;
 }
-
-
-
-.storyp1 {
-        background-color:#FAFAFA;
-
-}
-
-
-.storyp1-texto p{
-                    font-family: 'Josefin Sans', sans-serif;
-                    font-weight: 300;
-                    font-size: 25px;
-                    
-                    
-
+.story-section p {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
 }
 
 .mayuscula {
-
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-
-
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
 }
 
-.span{
-            font-weight: 700;
-
+.span {
+  font-weight: 700;
 }
 
 .banerparallax1-contenedor {
-    max-width: auto ;
-    margin: auto;
-    
+  max-width: auto;
+  margin: auto;
 }
 
-.banner.parallax{
-    
-    height: 1000px;
-
-
+.banner.parallax {
+  height: 1000px;
 }
 
-.parallax.imagen1 {
-        background-image: url(../Multimedia/wolf-alice-explica-la-historia-que-hay-detras-del-titulo-de-su-nuevo-album-blue-weekend.jpg);
-        background-attachment: fixed;
-        background-position: top center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      
-
+.parallax.imagen1, .parallax.imagen4, .parallax.imagen3, .parallax.imagen2 {
+  background-image: url(../Multimedia/wolf-alice-explica-la-historia-que-hay-detras-del-titulo-de-su-nuevo-album-blue-weekend.jpg);
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.parallax.imagen2 {
-    background-image: url(../Multimedia/Wolf-Alice-4.jpg);
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-
+.imagen2 {
+  background-image: url(../Multimedia/Wolf-Alice-4.jpg) !important;
 }
 
-.parallax.imagen3 {
-    background-image: url(../Multimedia/Wolf-Alice-Brixton-260915-20150926-Emma-Swann-2486.jpg);
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-
+.imagen3 {
+  background-image: url(../Multimedia/Wolf-Alice-Brixton-260915-20150926-Emma-Swann-2486.jpg) !important;
 }
 
-.parallax.imagen4 {
-    background-image: url(../Multimedia/Wolf-Alice-Cover.jpg);
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-
+.imagen4 {
+  background-image: url(../Multimedia/Wolf-Alice-Cover.jpg) !important;
 }
 
-
-
-    @media only screen and (min-width: 0px) and (max-width: 1000px){
-        .quote{
-            
-            padding: 0px;
-
-}
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+  .quote {
+    padding: 0px;
+  }
 }
 
-
-            
-            
-
-
+/*# sourceMappingURL=biography-styles.css.map */
