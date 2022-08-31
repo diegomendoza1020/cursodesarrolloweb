@@ -146,6 +146,14 @@ header {
   background-size: cover;
 }
 
+.parallax.imagen3 {
+  background-image: url(../Multimedia/WolfAlice3.jpg);
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .banerparallax1-contenedor {
   max-width: auto;
   margin: auto;
