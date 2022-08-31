@@ -1,69 +1,69 @@
-$colorblue: #1FA5DF;
-$colorblack: #171614;
-$colorwhite: #FAFAFA;
-$font: 'Josefin Sans',
-sans-serif;
 
-*{
+@mixin blue{
+    transition: color 0.15s;
+    color: #1FA5DF;
+
+}
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-
-
-}
-
-
-
-/* HEADER */
-
-header{
-        
-        padding: 10px;
-
-}
-
-
-
-.barra-item a{
-        color: #FAFAFA;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 300;
-        font-size: 20px;
-}
-
-.barra-item a:hover{
-            transition: color 0.15s;
-            color: #1FA5DF;
-
-
-}
-
-
-/* FOOTER */
-
-.footer{
+  }
+  
+  /* HEADER */
+  header {
+    padding: 10px;
+  }
+  
+  .barra-item a {
+    color: #FAFAFA;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    transition-property: transition, transform;
+    transition-duration: 1s;
+  }
+  
+  .barra-item a:hover {
+    transition: color 0.15s;
+    transform: translateY(-10px);
+    color: #1FA5DF;
+  }
+  
+  /* FOOTER */
+  .footer {
     background-color: #171614;
+  }
+  
+  .footer {
+    p {
+        margin: 70px;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 40x;
+        margin-top: 150px;
+        color: #FAFAFA;
+
+    }
+
+    a {
+
+
+
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+
 
 }
-
-.footer p {
-font-family: 'Josefin Sans', sans-serif;
-font-size: 40x;
-margin-top: 150px;
-color: #FAFAFA;
-
-}
-
-.footer i {
-font-size: 40px;
-color: #FAFAFA;
-text-align: center;
-
-
-
-}
-
-.footer i:hover{
-        color: #1FA5DF;
-
-}
+  
+  .footer i {
+    font-size: 40px;
+    color: #FAFAFA;
+    text-align: center;
+  }
+  
+  .footer i:hover {
+    color: #1FA5DF;
+  }
+  

@@ -4,6 +4,17 @@ $colorwhite: #FAFAFA;
 $font: 'Josefin Sans',
 sans-serif;
 
+@mixin titulo-secciones () {
+
+    font-family: $font;
+    font-weight: 700;
+    font-size: 50px;
+    color: $colorblack;
+
+}
+
+
+
 .fondo {
     height: 70rem;
     width: 100%;
@@ -12,7 +23,7 @@ sans-serif;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(24, 24, 24, 0.993), rgba(15, 15, 15, 0.1)), url(../Multimedia/IMG_5171.jpg);
+    background-image: linear-gradient(rgb(24, 24, 24), rgba(15, 15, 15, 0.87), rgba(15, 15, 15, 0.37)), url(../Multimedia/IMG_5171.jpg);
 
 }
 
@@ -35,8 +46,7 @@ sans-serif;
     background-color: $colorwhite;
     color: #171614;
     border-color: #FAFAFA;
-    font-family: $font;
-    font-weight: 300;
+    
 
 }
 
@@ -57,21 +67,46 @@ sans-serif;
 
 }
 
+.noticia-texto {
+
+     a {
+        font-family: $font;
+        font-weight: 700;
+        color: $colorblack;
+        text-decoration: none;
+
+        a:hover{
+            transition: color 0.15s;
+            color: #1FA5DF;
+
+        }
+
+
+
+    }
+
+}
+
 .card {
     border-radius: 2%;
 
 
 }
 
-.card-title h1 a {
-    font-family: $font;
-    font-weight: 700;
-    color: #171614;
-    text-decoration: none;
+.noticia{
 
-
+                transition-property: transform;
+                transition-duration: 1s;
 
 }
+
+.noticia:hover{
+
+                transform: translateY(-30px);
+
+}
+
+
 
 .news {
     margin-bottom: 50px;
@@ -79,11 +114,8 @@ sans-serif;
 }
 
 .titulo-news {
-    font-family: $font;
-    font-weight: 700;
-    font-size: 50px;
-    color: $colorblack;
 
+    @include titulo-secciones;
 }
 
 .card-subtitle {
@@ -95,11 +127,7 @@ sans-serif;
 }
 
 .titulo-members {
-    font-family: $font;
-    font-weight: 700;
-    font-size: 50px;
-    color: $colorblack;
-
+    @include titulo-secciones;
 }
 
 .titulo-tour {
@@ -126,15 +154,7 @@ table {
     color: $colorwhite;
 
 
-    a {
-
-        font-family: $font;
-        font-weight: 700;
-        text-decoration: none;
-        color: $colorwhite;
-        text-align: left;
-        display: block;
-    }
+   
 
     td {
         color: $colorwhite;
@@ -142,6 +162,22 @@ table {
         padding: 10px;
         text-align: left;
         display: block;
+        
+        a {
+
+            font-family: $font;
+            font-weight: 700;
+            text-decoration: none;
+            color: $colorwhite;
+            text-align: left;
+            display: block;
+        }
+
+        a:hover{
+            transition: color 0.15s;
+            color: #1FA5DF;
+            text-decoration: none;
+        }
 
     }
 
@@ -154,8 +190,34 @@ table {
     }
 }
 
+.card {
+    border: 0px;
+    box-shadow: 0 0 17px -12px;
+    border-radius: 0%;
+
+
+
+
+
+}
+
+.card-header {
+    background-color: white;
+    border-bottom: 0px;
+
+}
+
 .card-members {
-    margin: 10px;
+    margin: 30px;
+
+}
+
+@mixin titulo-cards($font-size){
+    font-family: $font;
+    font-weight: 700;
+    text-align: center;
+    font-size: $font-size;
+    color: $colorblack;
 
 }
 
@@ -164,23 +226,74 @@ table {
 
 
     h1 {
-        font-family: $font;
-        font-weight: 700;
-        text-align: center;
-        font-size: 50px;
-        color: $colorblack;
+        @include titulo-cards(50px);
 
     }
 
     h2 {
-        font-family: $font;
-        font-weight: 700;
-        text-align: center;
-        font-size: 20px;
-        color: $colorblack;
+
+        @include titulo-cards(20px);
 
     }
 }
+
+
+
+
+
+
+.footer {
+    p {
+        margin: 70px;
+
+    }
+
+    a {
+
+
+        margin: 50px;
+        
+    }
+
+
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+
+    .card-members{
+
+                margin: 30px 100px;
+
+                h1{
+                    font-size: 60px;
+                }
+
+    }
+
+    .footer {
+    p {
+        margin: 70px;
+
+    }
+
+    a {
+
+
+
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+
+
+}
+
+}
+
+ 
+
+
 
 /*ul{
             align-items: center;

@@ -1,0 +1,283 @@
+$colorblue: #1FA5DF;
+$colorblack: #171614;
+$colorwhite: #FAFAFA;
+$font: 'Josefin Sans',
+sans-serif;
+
+header {
+    background-color: $colorblack;
+    border: 0px;
+    box-shadow: 0 0 ;
+    border-radius: 0%;
+
+}
+
+.portadas {
+    background-color: $colorwhite;
+    padding: 50px 50px;
+
+    h1{
+
+        font-family: $font;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    font-size: 64px;
+    color: $colorblack;
+    }
+
+}
+
+
+
+
+.album{
+    padding: 10px;
+    
+    border: 0px;
+    box-shadow: 0 0 17px -12px;
+    
+    transition-property: transform;
+                transition-duration: 1s;
+
+}
+
+
+
+.albumes {
+
+    h3{
+
+        font-family: $font;
+        font-weight: 700;
+    
+        color: $colorblack;
+        text-align: center;
+        margin: 20px;
+    }
+
+    a{
+            text-decoration: none;
+            
+
+    }
+
+
+}
+
+
+
+.album-titulo
+                {
+                    background-color: $colorblack;
+
+        h3{
+            font-size: 100px;
+            padding: 30px;
+            font-family: $font;
+            font-weight: 700;
+            color: $colorwhite;
+
+        } 
+
+
+        }
+
+
+    
+
+
+
+
+
+
+.album-historia {
+
+
+    font-size: 30px;
+    padding: 30px 30px 30px 30px;
+    font-family: $font;
+    font-weight: 300;
+    text-align: justify;
+    color: $colorwhite;
+    background-color: $colorblack;
+
+
+}
+
+.album-historia-listen {
+    margin: 50px 50px 0px 0px;
+
+    a {
+            
+        text-decoration: none;
+        color: #FAFAFA;
+      
+
+    }
+            i{
+                text-align: center;
+                margin: 50px;
+                font-size: 70px;
+                text-decoration: none;
+
+            }
+           
+             a:hover {
+                transition: color 0.15s;
+                transform: translateY(-10px);
+                color: #1FA5DF;
+              }
+            
+            
+            
+            }
+
+
+
+
+.album-portada {
+    background-image: url(/Multimedia/a71150-20150622-wolf-alice-my-love-is-cool.jpg);
+    background-position: center;
+    background-size:auto;
+
+
+
+}
+
+.album-portada2 {
+    background-image: url(/Multimedia/81Ngj3VGcjL._AC_SL1500_.jpg);
+    background-position: center;
+    background-size: auto;
+
+
+
+
+}
+.album-portada3 {
+    background-image: url(/Multimedia/wolf-alice-blue-weekend.webp);
+    background-position: center;
+    background-size: auto;
+
+
+
+
+}
+
+.album-titulo2 {
+    background-color: #171614;
+
+}
+
+#titulo-VOF {
+    background-color: $colorblack;
+    color: $colorwhite;
+}
+
+.tracklist {
+
+    margin-bottom: 30px;
+
+
+h3 {
+
+
+    font-family: $font;
+    font-weight: 700;
+    font-size: 90px;
+    color: $colorblack;
+
+}
+}
+
+.cancion-titulo {
+
+    h1{
+       
+        padding: 10px;
+        font-family: $font;
+        font-weight: 300;
+
+    }
+
+    
+
+
+
+}
+
+
+.cancion {
+
+    background-color: $colorwhite;
+    height: 75px;
+
+    border: 0px;
+    box-shadow: 0 0 17px -12px;
+    border-radius: 0%;
+    margin: 20px 0px;
+
+
+    font-size: 24px;
+
+
+
+}
+
+
+
+.parallax.imagen1 {
+    background-image: url(../Multimedia/imgID31773617.jpg);
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.parallax.imagen2 {
+    background-image: url(../Multimedia/471b1269-49e9-4d14-989b-2c85883cc973.jpg);
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.banerparallax1-contenedor {
+    max-width: auto;
+    margin: auto;
+
+}
+
+.banner.parallax {
+
+    height: 500px;
+
+
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 1000px){
+
+    .cancion-titulo {
+
+        h1{
+           
+            font-size: 30px;
+            padding: 10px;
+            font-family: $font;
+            font-weight: 300;
+    
+        }
+    
+        
+    
+    
+    
+    }
+    
+
+}

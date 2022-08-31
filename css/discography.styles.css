@@ -26,6 +26,10 @@ header {
   transition-duration: 1s;
 }
 
+.album:hover {
+  transform: translateY(-30px);
+}
+
 .albumes h3 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
@@ -61,38 +65,22 @@ header {
 .album-historia-listen {
   margin: 50px 50px 0px 0px;
 }
-.album-historia-listen a {
-  text-decoration: none;
-  color: #FAFAFA;
-}
 .album-historia-listen i {
   text-align: center;
   margin: 50px;
   font-size: 70px;
-  text-decoration: none;
-}
-.album-historia-listen a:hover {
-  transition: color 0.15s;
-  transform: translateY(-10px);
-  color: #1FA5DF;
 }
 
 .album-portada {
-  background-image: url(/Multimedia/a71150-20150622-wolf-alice-my-love-is-cool.jpg);
+  background-image: url(../Multimedia/R-7146388-1435015803-9119.jpg);
   background-position: center;
-  background-size: auto;
+  background-size: contain;
 }
 
 .album-portada2 {
-  background-image: url(/Multimedia/81Ngj3VGcjL._AC_SL1500_.jpg);
+  background-image: url(../Multimedia/81Ngj3VGcjL._AC_SL1500_.jpg);
   background-position: center;
-  background-size: auto;
-}
-
-.album-portada3 {
-  background-image: url(/Multimedia/wolf-alice-blue-weekend.webp);
-  background-position: center;
-  background-size: auto;
+  background-size: contain;
 }
 
 .album-titulo2 {
@@ -104,9 +92,6 @@ header {
   color: #FAFAFA;
 }
 
-.tracklist {
-  margin-bottom: 30px;
-}
 .tracklist h3 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
@@ -114,8 +99,9 @@ header {
   color: #171614;
 }
 
-.cancion-titulo h1 {
-  padding: 10px;
+.cancion-titulo {
+  font-size: 20px;
+  padding: 30px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
 }
@@ -123,9 +109,6 @@ header {
 .cancion {
   background-color: #FAFAFA;
   height: 75px;
-  border: 0px;
-  box-shadow: 0 0 17px -12px;
-  border-radius: 0%;
   margin: 20px 0px;
   font-size: 24px;
 }
@@ -155,13 +138,4 @@ header {
   height: 500px;
 }
 
-@media only screen and (min-width: 576px) and (max-width: 1000px) {
-  .cancion-titulo h1 {
-    font-size: 30px;
-    padding: 10px;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 300;
-  }
-}
-
-/*# sourceMappingURL=discography-styles.css.map */
+/*# sourceMappingURL=discography.styles.css.map */

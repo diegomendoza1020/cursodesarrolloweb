@@ -1,74 +1,128 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-
-
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 /* HEADER */
-
-header{
-        
-        padding: 10px;
-        background-color: #171614;
-
+header {
+  padding: 10px;
+  background-color: #171614;
 }
 
-
-
-.barra-item a{
-        color: #FAFAFA;
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 300;
-        font-size: 20px;
+body {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgb(24, 24, 24), rgba(15, 15, 15, 0.87), rgba(15, 15, 15, 0.37)), url(../Multimedia/IMG_5171.jpg);
 }
 
-.barra-item a:hover{
-            transition: color 0.15s;
-            color: #1FA5DF;
-
-
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding: 50px 50px 50px 50px;
+  font-size: 64px;
+  color: #FAFAFA;
 }
 
+.subtitulo-contact {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  color: #FAFAFA;
+  font-size: 32px;
+}
 
-/* FOOTER */
+.barra-item a {
+  color: #FAFAFA;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
 
-.footer{
-    background-color: #171614;
+.barra-item a:hover {
+  transition: color 0.15s;
+  color: #1FA5DF;
+}
 
+form {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  padding: 50px;
+  margin: 100px;
+  font-size: 50px;
+  background-color: #FAFAFA;
+  border: 0px;
+  box-shadow: 0 0 17px -12px;
+  border-radius: 0%;
+}
+
+input {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.message {
+  padding: 20px 0px;
+}
+
+.select-album {
+  padding: 50px 0px;
+  font-size: 30px;
+}
+
+label {
+  color: #171614;
+  padding: 10px;
+  width: 500px;
+  font-size: 30px;
+  padding: 0px 30px 0px 30px;
+}
+
+.botones {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding: 50px 50px 10px 50px;
+  font-size: 64px;
+  color: #171614;
+}
+
+input[type=submit] {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  width: 500px;
+  border-color: #FAFAFA;
+  font-size: 30px;
+  color: #FAFAFA;
+  background-color: #171614;
+}
+
+input[type=submit]:hover {
+  color: #1FA5DF;
 }
 
 .footer p {
-font-family: 'Josefin Sans', sans-serif;
-font-size: 40x;
-margin-top: 150px;
-color: #FAFAFA;
-
+  margin: 70px;
+}
+.footer a {
+  margin: 50px;
 }
 
-.footer i {
-font-size: 40px;
-color: #FAFAFA;
-text-align: center;
-
-
-
+@media only screen and (min-width: 576px) and (max-width: 1000px) {
+  input[type=submit] {
+    width: 250px;
+  }
 }
-
-.footer i:hover{
-        color: #1FA5DF;
-
-}
-
-
+/*
 .formulario{
-                    
-                              
+
+
                 font-family: 'Josefin Sans', sans-serif;
                 font-weight: 300;
                 text-align: center;
-                
+
                 font-size: 64px;
                 color:#FAFAFA;
                 display: flex;
@@ -90,7 +144,7 @@ div{
 label {
                         color:#FAFAFA;
                         width: 100%;
-                        
+
                         padding: 0px 30px 0px 30px;
                         font-size: 30px;
 }
@@ -107,7 +161,7 @@ select{
                     font-family: 'Josefin Sans', sans-serif;
                     font-weight: 300;
                     text-align: center;
-                    
+
                     font-size: 25px;
                     color:#171614;
 
@@ -115,7 +169,7 @@ select{
 
 input {
                     display: inline-block;
-                    
+
 
 }
 
@@ -141,11 +195,11 @@ input[type="submit"] {
                         background-color: #171614;
 
 }
-            
+
 input[type="submit"]:hover {
- 
+
     color:#1FA5DF;
-    
+
 
 }
 
@@ -161,9 +215,9 @@ input[type="reset"] {
 }
 
 input[type="reset"]:hover {
-    
+
     color:#1FA5DF;
-    
+
 
 }
 
@@ -180,7 +234,7 @@ footer {
     width: 100%;
     background-color: #171614;
     text-align: center;
-   
+
 
 }
 footer p {
@@ -188,8 +242,8 @@ footer p {
     font-size: 40x;
     text-align: center;
     margin: 50px;
-    
-   
+
+
     color: #FAFAFA;
 
 }
@@ -204,7 +258,7 @@ footer i {
     border-color: #FAFAFA;
     border-width: 1px;
     border-radius: 100%;
-    
+
 }
 
 footer i:hover{
@@ -216,24 +270,24 @@ footer i:hover{
 
 @media only screen and (min-width: 300px) and (max-width: 900px){
 
-        
-            
+
+
     .grid{
             display:grid;
             grid-template-columns: 1fr;
 
     }
-        
+
     header{
         padding: 20px;
         width: 100%;
         display: flex;
         flex-direction: column;
-        
+
 
 }
 
-    
+
     .barra {
 
         text-align: center;
@@ -249,14 +303,14 @@ footer i:hover{
     }
 
     .formulario{
-                    
+
                     width: 100%;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-around;
                     font-size: 20px;
                     height: auto;
-                    
+
     }
 
     input{
@@ -267,7 +321,7 @@ footer i:hover{
                         font-size: 20px;
 
     }
-  
+
     .checkbox{
                     width: 50px;
 
@@ -281,8 +335,11 @@ footer i:hover{
 
     div{
                 margin: 30px;
-                
+
 
     }
 
 }
+*/
+
+/*# sourceMappingURL=contact-styles.css.map */

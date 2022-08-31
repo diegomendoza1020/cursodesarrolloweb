@@ -4,7 +4,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(24, 24, 24, 0.993), rgba(15, 15, 15, 0.1)), url(../Multimedia/IMG_5171.jpg);
+  background-image: linear-gradient(rgb(24, 24, 24), rgba(15, 15, 15, 0.87), rgba(15, 15, 15, 0.37)), url(../Multimedia/IMG_5171.jpg);
 }
 
 .boton-inicio {
@@ -24,8 +24,6 @@
   background-color: #FAFAFA;
   color: #171614;
   border-color: #FAFAFA;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 300;
 }
 
 .inicio {
@@ -41,15 +39,28 @@
   margin-top: 100px;
 }
 
-.card {
-  border-radius: 2%;
-}
-
-.card-title h1 a {
+.noticia-texto a {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   color: #171614;
   text-decoration: none;
+}
+.noticia-texto a a:hover {
+  transition: color 0.15s;
+  color: #1FA5DF;
+}
+
+.card {
+  border-radius: 2%;
+}
+
+.noticia {
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.noticia:hover {
+  transform: translateY(-30px);
 }
 
 .news {
@@ -96,7 +107,14 @@ table {
   font-family: "Josefin Sans", sans-serif;
   color: #FAFAFA;
 }
-table a {
+table td {
+  color: #FAFAFA;
+  width: auto;
+  padding: 10px;
+  text-align: left;
+  display: block;
+}
+table td a {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   text-decoration: none;
@@ -104,12 +122,10 @@ table a {
   text-align: left;
   display: block;
 }
-table td {
-  color: #FAFAFA;
-  width: auto;
-  padding: 10px;
-  text-align: left;
-  display: block;
+table td a:hover {
+  transition: color 0.15s;
+  color: #1FA5DF;
+  text-decoration: none;
 }
 table tr {
   color: #FAFAFA;
@@ -118,8 +134,19 @@ table tr {
   display: block;
 }
 
+.card {
+  border: 0px;
+  box-shadow: 0 0 17px -12px;
+  border-radius: 0%;
+}
+
+.card-header {
+  background-color: white;
+  border-bottom: 0px;
+}
+
 .card-members {
-  margin: 10px;
+  margin: 30px;
 }
 
 .members {
@@ -140,6 +167,35 @@ table tr {
   color: #171614;
 }
 
+.footer p {
+  margin: 70px;
+}
+.footer a {
+  margin: 50px;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .card-members {
+    margin: 30px 100px;
+  }
+  .card-members h1 {
+    font-size: 60px;
+  }
+  .footer p {
+    margin: 70px;
+  }
+  .footer a {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .footer p {
+    margin: 70px;
+  }
+  .footer a {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}
 /*ul{
             align-items: center;
             justify-content:right
